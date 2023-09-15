@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Captcha </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>Captcha Generator</header>
+        <div class="input_field captcha_box">
+            <input type="text" value="" disabled/>
+            <button class="refresh_button">
+                <i class="fas fa-undo"></i>
+            </button>
+        </div>
+        <div class="input_field captcha_input">
+            <input type="text" placeholder="Enter Captcha"/>
+        </div>
+        <div class="message">Entered captcha is correct</div>
+        <div class="input_field button disabled">
+            <button>Sumbit Captcha</button>
+        </div>
+    </div>
+    <!-- Correct the attribute name to "language" -->
+    <script language="javascript" src="script.js"></script>
+</body>
+</html>
